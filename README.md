@@ -57,6 +57,21 @@ Every commit triggers a build process to intergrate changes continously, ensurin
 
 Automated testing - builds often includes automated tests that verify the new changes that dont introduce bugs or break existing functionality 
 
+Now lets edit this Repository 
+
+ We must clone this repository in our local computer 
+1) Go to the folder where we want to clone the Repository
+2) Open git bash in that path
+3) Type this command, 
+  git clone <repository-url>
+4) to create a new branch
+  git checkout -b ＜new-branch＞
+5) after making the changes to the code stage the changes using git add .
+6) after the commit the changes with an appropriate commit message
+ git commit -m "Add initial Java code"
+7) after that we must push the changes to the remote branch from the local branch for that we use git push
+   git push origin <branch-name>
 
 
+   
   
